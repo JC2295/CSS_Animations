@@ -30,8 +30,8 @@ body{
 #rotate{
     width: 100%;
     height: 100%;
-    background-image: url('texture.jpg');
-    animation: rotate 5s linear infinite;
+    background-image: url('texture.svg');
+    animation: rotate 10s linear infinite;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -39,7 +39,7 @@ body{
 
 
 #sheet{
-    background-color: azure;
+    background-image: url('texture.svg');
     width:0;
     height:100%;
     animation: sheet 10s linear;
